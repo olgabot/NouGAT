@@ -197,4 +197,27 @@ Note! FRC only accepts two libraries so we recommend to choose one (overlapping)
 Described [here](/sciLifeLab_utils).
 
 ## How to get started
-Coming soon.
+
+The installation provides the command `scilifelab_denovo` which 
+
+```
+$ scilifelab_denovo
+Could not open the config file /home/olga/.nougat/scilifelab.conf, will use hardcoded defaults
+Usage: scilifelab_denovo [OPTIONS] COMMAND [ARGS]...
+
+  A set of convenience functions for the bioinformaticians at NGI Stockholm
+  for using NouGAT. This assumes that data is in a specific format and that
+  is is run on a SLURM cluster
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  assembly     Start assembly using with sample sequenced with a single...
+  delivery     Delivers deNovo data results folder to users inbox
+  qc-analysis  Perform QC for de novo / mate-pair libraries
+  qc-report    Generate a PDF report detailing the QC analysis results.
+  report       Write a pdf report and generate folder structure for
+               delivery...
+  validation   Runs assembly validation with sample sequenced with a single...
+```
